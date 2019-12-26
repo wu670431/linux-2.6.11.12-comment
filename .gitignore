@@ -1,2 +1,16 @@
 *.o
+
+# make config
+*.config
+*.cmd
+include/linux/autoconf.h
+scripts/basic/docproc
+scripts/basic/fixdep
+scripts/basic/split-include
+scripts/kconfig/conf
+scripts/kconfig/lex.zconf.c
+scripts/kconfig/zconf.tab.c
+scripts/kconfig/zconf.tab.h
+
+
 linux-2.6.11.12.si4project
